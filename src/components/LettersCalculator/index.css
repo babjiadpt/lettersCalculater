@@ -1,0 +1,116 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .app-container {
+    flex-direction: row;
+  }
+}
+
+.calculator-img {
+  width: 70%;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-img {
+    width: 40%;
+    order: 2;
+  }
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 80%;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator-container {
+    width: 40%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
+.input-element {
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  padding-left: 10px;
+  color: #ffffff;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .input-element {
+    border: 2px solid #ffffff;
+    height: 50px;
+  }
+}
+
+.key-count {
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #219a6f;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .key-count {
+    height: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 80%;
+  }
+}
